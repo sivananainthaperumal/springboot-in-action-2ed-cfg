@@ -9,6 +9,8 @@ spring:
       ribbon:
         enabled: false
 eureka:
+  instance:
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
